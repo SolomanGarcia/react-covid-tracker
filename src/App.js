@@ -105,6 +105,7 @@ function App() {
           <h3>Live Cases by Country</h3>
           <Table countries={tableData} />
           <h3>World Wide New Cases</h3>
+          <LineGraph />
         </CardContent>
       </Card>
     </div>
