@@ -8,7 +8,7 @@ function ChangeMap({ center, zoom }) {
   return null;
 }
 
-function Map({ center, zoom }) {
+function Map({ countries, center, zoom }) {
   return (
     <div className="map">
       <LeafletMap>
